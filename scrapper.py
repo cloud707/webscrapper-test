@@ -39,8 +39,8 @@ def send_mail():
     msg = f"Subject: {subject}\n\n{body}"
 
     server.sendmail(
-        'metayer.jhonston@gmail.com',
-        'jhonston.metayer@gmail.com',
+        'bruce.leeroy@gmail.com',
+        'leeroy.bruce@gmail.com',
         msg
     )
 
